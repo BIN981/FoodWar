@@ -51,12 +51,50 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name on Card: "
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="307dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editText_dob2"
+        android:layout_width="255dp"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_shape"
+        android:ems="10"
+        android:hint="DOB"
+        android:inputType="date"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText_dob5"
+        android:layout_width="255dp"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_shape"
+        android:ems="10"
+        android:hint="Adress"
+        android:inputType="date"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
         android:layout_width="255dp"
         android:layout_height="48dp"
         android:background="@drawable/btn_shape"
@@ -71,6 +109,48 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
         tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/editText_dob"
+        android:layout_width="105dp"
+        android:layout_height="44dp"
+        android:background="@drawable/btn_shape"
+        android:ems="10"
+        android:text="Male"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_dob2"
+        app:layout_constraintVertical_bias="0.185"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/editText_dob4"
+        android:layout_width="105dp"
+        android:layout_height="44dp"
+        android:background="@drawable/btn_shape"
+        android:text="Female"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_dob2"
+        app:layout_constraintVertical_bias="0.185"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="94dp"
+        android:layout_height="38dp"
+        android:background="@drawable/btn_shape"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_dob5"
+        app:layout_constraintVertical_bias="0.42" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

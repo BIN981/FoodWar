@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "341071839427",
+    "project_id": "foodwar-510e2",
+    "storage_bucket": "foodwar-510e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341071839427:android:6610ef656afcb1508a6276",
+        "android_client_info": {
+          "package_name": "com.example.foodwar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341071839427-fn4of545p6ie7j1bicb1s1rgfi0u120e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1JamvUjTuWd4bWOt9kEDema98ZDFGpJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341071839427-fn4of545p6ie7j1bicb1s1rgfi0u120e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
